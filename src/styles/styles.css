@@ -1,0 +1,205 @@
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.language-select {
+  margin-right: 20px;
+  color: #fff;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+}
+
+
+.header-button {
+  margin-right: 10px;
+  padding: 10px;
+  background-color: red;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.login-button {
+  padding: 10px; 
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+}
+.register-button {
+  padding: 10px; 
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+
+
+
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.welcome-section {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.wwe-icon {
+  width: 100px; 
+  height: 100px; 
+}
+
+.facts-section {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.you-cant-see-him-section {
+  text-align: center;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.language-select {
+  margin-right: 20px;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+}
+
+.header-button {
+  margin-right: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .header-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .language-select {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .header-button {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+@keyframes moveBelt {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(50px); 
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.wwe-belt {
+  width: 150px; 
+}
+
+.animate-belt {
+  animation: moveBelt 4s linear infinite; 
+}
+
